@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "Base/_variables.scss",
+        "Base/_typography.scss",
+        "Components/_buttons.scss",
+        "Components/_modal.scss",
+        "Layout/_navbar.scss",
+        "Layout/_header.scss",
+        "Layout/_footer.scss",
+        "pages/_home.scss",
+        "pages/_info.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

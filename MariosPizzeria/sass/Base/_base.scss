@@ -1,0 +1,7 @@
+// Eventuella saker för basen av sidan
+
+* {
+    margin: 0; // Resettar margin
+    padding: 0; // Resettar padding
+    box-sizing: border-box; // Gör att alla element med t.ex. border ingår i hela storleken på ett element man valt
+}

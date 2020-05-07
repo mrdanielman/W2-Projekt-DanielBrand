@@ -1,1 +1,14 @@
 // Design för navbar
+
+nav {
+    height: 7.5rem;
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    display: flex;
+
+    z-index: 10;
+    background-color: $S_color_dark;
+    border-bottom: black solid .2rem;
+}

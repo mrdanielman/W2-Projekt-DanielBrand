@@ -1,1 +1,37 @@
 // Design för header
+
+header {
+    height: 70vh;
+    margin-top: 7.5rem;
+
+    background-image: url(/img/PersonHoldingPizza.jpg);
+    background-size: cover;
+
+    .headerHeader {
+        padding: 1rem;
+        width: 70%;
+
+        background-color: rgba($B_color, $alpha: 0.45);
+        border-radius: 1.33rem;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h1 {
+            margin-bottom: 1rem;
+
+            color: $S_color;
+            text-align: center;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+
+        p {
+            color: $S_color;
+            text-align: center;
+            font-size: 2.65rem;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+    }
+}

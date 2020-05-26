@@ -6,9 +6,51 @@ nav {
     
     position: fixed;
     top: 0;
-    display: flex;
+    display: grid;
 
     z-index: 10;
-    background-color: $S_color_dark;
-    border-bottom: black solid .2rem;
+    background-color: $P_color_dark;
+    border-bottom: black solid .3rem;
+
+    grid-template-columns: 7.5rem 1fr 1fr 7.5rem;
+
+    .nameIcon {
+        grid-column: 2 / 4;
+        
+        margin: 0 auto;
+        line-height: 7.5rem;
+    }
+
+    #hMenu {
+        grid-column: 4/-1;
+
+        margin: 0 auto;
+        line-height: 7.5rem;
+
+        font-size: 2.55rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .navLinks {
+        grid-column: 1/-1;
+        display: none;
+
+        background-color: $P_color_dark;
+
+        a {
+            display: block;
+
+            text-align: center;
+            line-height: 7.5rem;
+
+            border-bottom: solid black .2rem;
+
+            &:first-of-type {
+                border-top: solid black .3rem;
+            }
+        }
+    }
 }

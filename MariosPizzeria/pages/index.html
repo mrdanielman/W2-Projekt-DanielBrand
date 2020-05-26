@@ -5,32 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/sass/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ea9c7e07c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <nav>
-        <div class="name_icon">
-            <h2>Mario's Pizzeria</h2>
+        <div class="nameIcon">
+            <h3>Mario's Pizzeria</h3>
         </div>
 
-        <div class="links">
-            <a href="#">Home</a>
+        <i class="fas fa-bars" id="hMenu"></i>
 
-            <a href="#">Menu</a>
+        <div class="navLinks">
+            <a href="index.html">Home</a>
 
-            <a href="#">Info</a>
+            <a href="menu.html">Menu</a>
+
+            <a href="info.html">Info</a>
         </div>
     </nav>
 
     <header>
-
+        <div class="headerHeader">
+            <h1>Mario's Pizzeria</h1>
+            <p>Your pizza, our oven!</p>
+        </div>
     </header>
 
-    <main>
+    <main class="mainHome">
+        <section class="rating">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
 
+            <div class="quote">
+                <p>This place has revolutionized the word "Pizza"!</p>
+                <h4>- Jack Black</h4>
+            </div>
+        </section>
+
+        <!-- Endast för att ha en rand mellan sections -->
+        <div class="changeDeco"></div>
+
+        <section class="mainMenu">
+            <div class="newMenuItem">
+                <img src="/img/TheBehemoth.jpg" alt="">
+                <p>Try our new pizza, the Behemoth!</p>
+                <p>Fully fledged with flavor and toppings!</p>
+            </div>
+        </section>
+
+        <section class="placeResturant">
+
+        </section>
     </main>
 
-    <script src=""></script>
+    <footer>
+        <div class="infoFooter">
+            <a href="info.html">Information</a>
+            <a href="about.html">About Us!</a>
+
+        </div>
+
+        <div class="company">
+            <h4>Mario's Pizzeria</h4>
+
+            <div class="socialMedia">
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+            </div>
+
+            <div class="contact">
+                <p>Contact us!</p>
+                <p>070-13376969</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
 
 </body>
 </html>

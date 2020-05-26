@@ -1,1 +1,55 @@
 // Design för footer
+
+footer {
+    height: 17.5rem;
+    width: 100%;
+
+    display: grid;
+
+    background-color: $P_color_dark;
+    border-top: black solid .3rem;
+
+    grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
+
+    .infoFooter {
+        grid-column: 2/3;
+
+        margin: 0 auto;
+
+        a {
+            margin-top: 4.5rem;
+            display: block;
+
+            text-align: center;
+        }
+    }
+
+    .company {
+        grid-column: 3/4;
+
+        margin: 0 auto;
+
+        h4 {
+            padding-top: 3rem;
+        }
+
+        .socialMedia {
+            display: flex;
+            justify-content: space-evenly;
+
+            margin-top: 1.5rem;
+
+            a {
+                font-size: 2.75rem;
+            }
+        }
+
+        p {
+            margin-top: 1.15rem;
+            
+            text-align: center;
+
+            font-size: 1.5rem;
+        }
+    }
+}
